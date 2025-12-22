@@ -44,7 +44,7 @@
 ## 🚀 Featured Products
 
 <!-- 2x2 GRID -->
-<table>
+<table style="width:100%">
   <tr>
     <td width="50%" valign="top">
       <h3>🗺️ BUMPI</h3>
