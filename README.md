@@ -34,7 +34,7 @@
 
 ---
 
-### 🏋️ Ironbox (VITALYN)
+### 🏋️ Ironbox 
 **크로스핏 WOD 기록 · 랭킹 · 통계 플랫폼**
 
 - WOD 기록 / 캘린더 UI
