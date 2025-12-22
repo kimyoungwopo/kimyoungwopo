@@ -1,54 +1,98 @@
-<!-- PROFILE README: kimyoungwopo -->
-
-<h1 align="center">김영우 (kimyoungwopo)</h1>
+<!-- HERO -->
 <p align="center">
-  Frontend Developer · TypeScript · React · Next.js · Vite · Supabase
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:2563eb&height=180&section=header&text=Kim%20Youngwoo&fontSize=48&fontColor=ffffff" />
 </p>
 
 <p align="center">
-  <a href="https://bumpi-app-six.vercel.app/"><b>🏁 BUMPI Demo</b></a>
-  ·
-  <a href="https://github.com/kimyoungwopo?tab=repositories"><b>📦 Repos</b></a>
+  <b>Front-End Developer · Product Builder</b><br/>
+  사용자 경험을 설계하고, 실제로 쓰이는 서비스를 만듭니다
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Expert-61DAFB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/TypeScript-Strong-3178C6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Next.js-App_Router-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Tailwind-shadcn/ui-38BDF8?style=for-the-badge"/>
 </p>
 
 ---
 
-## 지금 만드는 것들
+## 🚀 Featured Products
 
-### 🗺️ BUMPI
-드랍인 가능한 크로스핏 박스/복싱 체육관을 지도에서 찾고, 가격·시설·리뷰를 한 번에 확인하는 서비스.
+<table>
+<tr>
+<td width="50%">
 
-- 지도 기반 탐색 / 필터 / 배지(시설·드랍인·가격)
-- 사용자 리뷰/평점
-- 운영 확장: 지역별 큐레이션, 이벤트/프로모션
+### 🗺️ BUMPI  
+**Drop-in Fitness Finder**
 
-### 🤖 Binance Auto Trader (R&D)
-바이낸스 선물 자동매매 실험 프로젝트. (리서치/구조 검증 중심)
+- 전국 크로스핏 · 복싱 체육관 탐색
+- Map-first UX
+- 가격 / 시설 / 리뷰 통합
 
-- 시그널 분석 + 리스크 관리
-- 백엔드 분리 운영 / 배포 환경 구성
+🔗 https://bumpi-app-six.vercel.app/
 
-### 🏋️ Ironbox
-운동 기록/랭킹/박스 단위 커뮤니티 기능을 목표로 하는 트레이닝 앱.
+</td>
+<td width="50%">
 
-- WOD 기록 / 통계 / 랭킹
-- 박스 단위 멤버 관리(승인/권한)
+### 🤖 Binance Trading System  
+**Auto Trading Architecture**
+
+- AI 시그널 기반 자동 분석
+- 거래 / 리스크 / 백엔드 분리
+- 실전 운영 구조
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🏋️ Ironbox (VITALYN)  
+**WOD 기록 · 랭킹 · 통계 플랫폼**
+
+- 크로스핏 박스 중심 커뮤니티
+- WOD 기록 / 캘린더
+- 랭킹 & 데이터 시각화
+
+</td>
+<td width="50%">
+
+### 🌐 ATP Official Website  
+**Brand / Landing / Admin-ready Web**
+
+- 공식 웹사이트 구축 및 운영 구조
+- 콘텐츠/섹션 확장에 강한 UI 구성
+- 배포/운영을 고려한 프로젝트 설계
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Pinned (추천)
-- **BUMPI**: 지도 기반 서비스 메인
-- **Binance**: 구조/아키텍처 중심
-- **Ironbox**: 앱/기능 플로우 중심
+## 🧩 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,nextjs,vite,tailwind,nodejs,supabase" />
+</p>
 
 ---
 
-## Tech Stack
-- **Frontend**: TypeScript, React, Next.js, Vite, Tailwind, shadcn/ui
-- **State/Data**: TanStack Query, Zustand
-- **Backend**: Supabase (Auth, DB, Storage, Edge Functions)
+## 🧠 About Me
+- UI보다 **UX 구조와 데이터 흐름**을 중요하게 봅니다
+- 혼자서 **기획 → 개발 → 배포**까지 완결하는 걸 선호합니다
+- 실사용 가능한 프로덕트만 만듭니다
 
 ---
 
-## Contact
-- Email: kbc01054575075@gmail.com
+## 📊 GitHub Stats
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=kimyoungwopo&show_icons=true&theme=transparent" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimyoungwopo&layout=compact&theme=transparent" />
+</p>
+
+<!-- FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563eb,100:111827&height=80&section=footer" />
+</p>
