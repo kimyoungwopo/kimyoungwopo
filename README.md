@@ -46,8 +46,6 @@
 
 ## ⚡ Currently Shipping
 
-> 최근에 실제로 작업하고 있는 프로젝트만 전면에 둡니다. 오래 멈춘 레포/서비스와 깨지는 통계 이미지는 제외했습니다.
-
 <table>
   <tr>
     <td width="33%" valign="top">
@@ -82,6 +80,38 @@
       <a href="https://github.com/kimyoungwopo/cafe24-smart-design">github.com/kimyoungwopo/cafe24-smart-design</a><br/>
       <sub>HTML · Public reference · Docs UX</sub>
     </td>
+  </tr>
+</table>
+
+---
+
+## 🗺️ Product Map
+
+```mermaid
+flowchart LR
+  A[User Problem] --> B[Mobile UX]
+  B --> C[API & Data]
+  C --> D[Role-based UI]
+  D --> E[SEO / OG / QA]
+  E --> F[Production]
+
+  G[GakjaCoding] --> B
+  G --> E
+  W[WOD / PRDAY] --> C
+  W --> D
+  CAFE[Cafe24 Smart Design] --> E
+
+  classDef product fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+  classDef system fill:#ECFEFF,stroke:#38BDF8,color:#0F172A,stroke-width:2px;
+  class G,W,CAFE product;
+  class A,B,C,D,E,F system;
+```
+
+<table>
+  <tr>
+    <td width="33%" align="center"><b>🧑‍💻 Product App</b><br/>GakjaCoding<br/><sub>home · preview · share · auth</sub></td>
+    <td width="33%" align="center"><b>🏋️ Operation SaaS</b><br/>WOD / PRDAY<br/><sub>member · booking · coaching · admin</sub></td>
+    <td width="33%" align="center"><b>🛠️ Reference Tooling</b><br/>Cafe24 Smart Design<br/><sub>docs · search · guardrail · workflow</sub></td>
   </tr>
 </table>
 
