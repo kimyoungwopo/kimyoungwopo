@@ -85,13 +85,28 @@
 
 ---
 
+## 🧬 Live Build Signals
+
+<div align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kimyoungwopo&theme=github_dark" alt="GitHub contribution summary" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=kimyoungwopo&theme=transparent&hide_border=true&stroke=38BDF8&ring=38BDF8&fire=2563EB&currStreakLabel=93C5FD" alt="GitHub streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimyoungwopo&theme=github_dark&utcOffset=9" alt="Productive time" />
+</div>
+
+---
+
 ## 🗺️ Product Map
 
 ```mermaid
 flowchart LR
-  A[User Problem] --> B[Mobile UX]
+  A[Problem] --> B[Mobile UX]
   B --> C[API & Data]
-  C --> D[Role-based UI]
+  C --> D[Role UI]
   D --> E[SEO / OG / QA]
   E --> F[Production]
 
