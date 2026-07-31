@@ -46,53 +46,41 @@
 
 ## ⚡ Currently Shipping
 
-> 최근에 실제로 작업한 프로젝트만 전면에 둡니다. 오래 멈춘 레포/서비스는 Featured에서 제외했습니다.
+> 최근에 실제로 작업하고 있는 프로젝트만 전면에 둡니다. 오래 멈춘 레포/서비스와 깨지는 통계 이미지는 제외했습니다.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>🧑‍💻 GakjaCoding</h3>
       <b>API-first coding education/product platform</b><br/><br/>
       <ul>
         <li>Next.js · Supabase 기반 제품형 프론트엔드</li>
-        <li>게스트/회원 플로우, 공유 UX, GitHub avatar 기반 사용자 경험</li>
-        <li>모바일 320/390px 기준 overflow 없는 compact UI</li>
+        <li>게스트/회원 플로우, 공유 UX, GitHub avatar 사용자 경험</li>
+        <li>모바일 320/390px 기준 compact UI</li>
       </ul>
       <a href="https://gakjaccoding.vercel.app">gakjaccoding.vercel.app</a><br/>
-      <sub>Updated: 2026.07 · TypeScript · Product UI</sub>
+      <sub>TypeScript · Product UI · SEO/OG</sub>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>🏋️ WOD / PRDAY</h3>
       <b>CrossFit WOD, booking, coaching operations</b><br/><br/>
       <ul>
         <li>회원/관리자 역할별 모바일 플로우</li>
         <li>WOD 기록, 예약, 코칭 신청/승인 UX</li>
-        <li>운영 데이터와 UI 상태를 연결하는 SaaS형 구조</li>
+        <li>운영 데이터와 UI 상태를 연결하는 SaaS 구조</li>
       </ul>
-      <sub>Updated: 2026.07 · TypeScript · Mobile-first SaaS</sub>
+      <sub>TypeScript · Mobile-first SaaS · Ops flow</sub>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>🛠️ Cafe24 Smart Design</h3>
       <b>Frontend reference and AI-assisted workflow docs</b><br/><br/>
       <ul>
-        <li>Cafe24 모듈/변수/수정자 레퍼런스 정리</li>
+        <li>Cafe24 모듈/변수/수정자 레퍼런스</li>
         <li>스킨 GitOps, 샘플몰 preview, AI 편집 guardrail</li>
-        <li>정적 문서 UX, 검색/탐색성, 모바일 표 가독성 개선</li>
+        <li>정적 문서 UX, 검색/탐색성, 모바일 표 가독성</li>
       </ul>
       <a href="https://github.com/kimyoungwopo/cafe24-smart-design">github.com/kimyoungwopo/cafe24-smart-design</a><br/>
-      <sub>Updated: 2026.07 · HTML · Public reference</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎀 RESCENE Remini</h3>
-      <b>Character scroll landing and visual QA</b><br/><br/>
-      <ul>
-        <li>파스텔 무드의 캐릭터 스크롤 랜딩</li>
-        <li>코드 제어 레이아웃, 원본 PNG 보존, 모바일 회귀 QA</li>
-        <li>캐릭터 팬 경험을 살리는 인터랙션/공유 카드 실험</li>
-      </ul>
-      <sub>Updated: 2026.07 · TypeScript · Interaction design</sub>
+      <sub>HTML · Public reference · Docs UX</sub>
     </td>
   </tr>
 </table>
@@ -120,13 +108,50 @@
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Product Features I Build
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,nextjs,vite,tailwind,nodejs,express,supabase,postgres,vercel,docker,figma" alt="React, TypeScript, Next.js, Vite, Tailwind, Node.js, Express, Supabase, Postgres, Vercel, Docker, Figma" />
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧱 App Shell & IA</h3>
+      <ul>
+        <li>홈/대시보드/상세/설정으로 이어지는 정보 구조</li>
+        <li>모바일 하단 시트, sticky CTA, 역할별 진입 동선</li>
+        <li>빈 상태와 다음 행동이 보이는 화면 설계</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔐 Auth & Role Flow</h3>
+      <ul>
+        <li>게스트, 회원, 관리자 권한 분기</li>
+        <li>Supabase 기반 인증/프로필/권한 상태 연결</li>
+        <li>로그인 전후 CTA와 보호 라우트 UX</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 Data-driven Components</h3>
+      <ul>
+        <li>로딩, 에러, 빈 화면, 성공 상태를 포함한 컴포넌트</li>
+        <li>API route BFF와 프론트 상태 모델 정리</li>
+        <li>목록/필터/상세/폼의 반복 가능한 패턴화</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 Ship Quality</h3>
+      <ul>
+        <li>SEO metadata, OG preview, 접근성 기본값</li>
+        <li>Vercel 배포, GitHub workflow, 운영 체크리스트</li>
+        <li>모바일 overflow, touch target, visual regression 확인</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<br/>
+---
+
+## 🧰 Tech Stack
 
 <table>
   <tr>
@@ -149,27 +174,29 @@
 
 ---
 
+## 🛫 From Idea to Production
+
+```txt
+Problem → User flow → Data model → API contract → UI states → Mobile QA → Deploy → Iterate
+```
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><b>Plan</b><br/>사용자 행동과 핵심 화면을 먼저 정리</td>
+    <td width="25%" valign="top"><b>Build</b><br/>컴포넌트, API, 상태, 권한을 함께 구현</td>
+    <td width="25%" valign="top"><b>Verify</b><br/>모바일/SEO/OG/overflow/접근성 체크</td>
+    <td width="25%" valign="top"><b>Ship</b><br/>배포 후 실제 도메인 기준으로 다시 확인</td>
+  </tr>
+</table>
+
+---
+
 ## 🧠 How I Build
 
 - 기능을 먼저 나열하지 않고 **사용자가 완료해야 하는 행동**부터 정의합니다.
 - UI 컴포넌트는 **데이터 상태, 권한, 에러, 빈 화면**까지 포함해서 설계합니다.
 - 모바일에서 먼저 읽히는지 보고, 데스크톱에서는 정보 구조와 밀도를 정리합니다.
 - 배포 후에도 깨지지 않도록 **SEO/OG, 성능, 회귀 QA, 운영 플로우**를 함께 봅니다.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kimyoungwopo&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimyoungwopo&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kimyoungwopo&theme=react-dark&hide_border=true&bg_color=020617&color=93C5FD&line=38BDF8&point=FFFFFF" width="100%" alt="GitHub activity graph" />
-</div>
 
 <!-- FOOTER -->
 <p align="center">
