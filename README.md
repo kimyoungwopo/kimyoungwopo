@@ -1,12 +1,12 @@
 <!-- HERO -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:2563EB,100:38BDF8&height=190&section=header&text=Kim%20Youngwoo&fontSize=48&fontColor=ffffff&animation=twinkling" width="100%" alt="Kim Youngwoo" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:2563EB,100:38BDF8&height=190&section=header&text=Kim%20Youngwoo&fontSize=48&fontColor=ffffff&animation=twinkling" width="100%" alt="Kim Youngwoo" />
 </p>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2400&pause=850&color=60A5FA&center=true&vCenter=true&multiline=true&repeat=true&width=860&height=92&lines=Front-End+Developer;Product-Minded+Web+Builder;React+%C2%B7+TypeScript+%C2%B7+Next.js"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2300&pause=850&color=60A5FA&center=true&vCenter=true&multiline=true&repeat=true&width=880&height=92&lines=Front-End+Developer;Product-Minded+Web+Builder;React+%C2%B7+TypeScript+%C2%B7+Next.js+%C2%B7+Supabase"
       alt="Typing SVG"
     />
   </a>
@@ -15,8 +15,8 @@
 <br/>
 
 <div align="center">
-  <b>Front-End Developer · Product Builder</b><br/>
-  UI를 넘어 UX 구조, 데이터 흐름, 배포 이후의 운영까지 생각하며 실제로 쓰이는 웹 서비스를 만듭니다.
+  <b>프론트엔드를 중심으로 제품의 구조, 흐름, 운영까지 설계합니다.</b><br/>
+  모바일 우선 UX · API-first 구조 · 실제 사용자가 끝까지 완료하는 서비스 플로우를 만듭니다.
 </div>
 
 <br/>
@@ -26,7 +26,7 @@
     <img src="https://img.shields.io/badge/Gmail-kbc01054575075%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://gakjaccoding.vercel.app">
-    <img src="https://img.shields.io/badge/Live%20Product-GakjaCoding-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="GakjaCoding" />
+    <img src="https://img.shields.io/badge/Live-GakjaCoding-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="GakjaCoding" />
   </a>
   <a href="https://github.com/kimyoungwopo/cafe24-smart-design">
     <img src="https://img.shields.io/badge/Open%20Source-Cafe24%20Smart%20Design-38BDF8?style=for-the-badge&logo=github&logoColor=0F172A" alt="Cafe24 Smart Design" />
@@ -44,73 +44,76 @@
 
 ---
 
-## 🚀 Featured Products
+## ⚡ Currently Shipping
+
+> 최근에 실제로 작업한 프로젝트만 전면에 둡니다. 오래 멈춘 레포/서비스는 Featured에서 제외했습니다.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>각자코딩 · GakjaCoding</h3>
-      <b>API-first coding education / product platform</b><br/><br/>
+      <h3>🧑‍💻 GakjaCoding</h3>
+      <b>API-first coding education/product platform</b><br/><br/>
       <ul>
         <li>Next.js · Supabase 기반 제품형 프론트엔드</li>
-        <li>게스트/회원 플로우와 공유 UX 설계</li>
-        <li>모바일 우선 UI와 SEO/OG까지 고려한 서비스 구조</li>
+        <li>게스트/회원 플로우, 공유 UX, GitHub avatar 기반 사용자 경험</li>
+        <li>모바일 320/390px 기준 overflow 없는 compact UI</li>
       </ul>
-      🔗 <a href="https://gakjaccoding.vercel.app">gakjaccoding.vercel.app</a>
+      <a href="https://gakjaccoding.vercel.app">gakjaccoding.vercel.app</a><br/>
+      <sub>Updated: 2026.07 · TypeScript · Product UI</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>WOD</h3>
-      <b>CrossFit WOD record and community product</b><br/><br/>
+      <h3>🏋️ WOD / PRDAY</h3>
+      <b>CrossFit WOD, booking, coaching operations</b><br/><br/>
       <ul>
-        <li>WOD 기록, 캘린더, 랭킹 중심 UX</li>
-        <li>운동 데이터 흐름과 모바일 입력 경험 최적화</li>
-        <li>실제 박스 운영을 고려한 확장 구조</li>
+        <li>회원/관리자 역할별 모바일 플로우</li>
+        <li>WOD 기록, 예약, 코칭 신청/승인 UX</li>
+        <li>운영 데이터와 UI 상태를 연결하는 SaaS형 구조</li>
       </ul>
-      <sub>Product UI · Mobile flow · Data-driven UX</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>BUMPI</h3>
-      <b>Drop-in fitness finder</b><br/><br/>
-      <ul>
-        <li>전국 크로스핏 · 복싱 체육관 탐색</li>
-        <li>지도 중심 탐색 UX와 상세 정보 구조</li>
-        <li>가격, 시설, 리뷰를 연결하는 서비스 플로우</li>
-      </ul>
-      <sub>Map-first UX · Search flow · Service structure</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>POSTPULSE</h3>
-      <b>Social content automation product</b><br/><br/>
-      <ul>
-        <li>콘텐츠 기획, 생성, 발행 흐름을 제품화</li>
-        <li>프론트엔드 중심 대시보드와 자동화 UX</li>
-        <li>운영자가 반복 작업을 줄이도록 설계</li>
-      </ul>
-      <sub>Dashboard · Automation · Creator workflow</sub>
+      <sub>Updated: 2026.07 · TypeScript · Mobile-first SaaS</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>RESCENE Remini</h3>
-      <b>Character scroll landing page</b><br/><br/>
+      <h3>🛠️ Cafe24 Smart Design</h3>
+      <b>Frontend reference and AI-assisted workflow docs</b><br/><br/>
       <ul>
-        <li>파스텔 무드의 스크롤 인터랙션 랜딩</li>
-        <li>비주얼 QA와 모바일 회귀를 고려한 UI 구현</li>
-        <li>캐릭터/브랜드 감도를 살리는 코드 제어형 레이아웃</li>
+        <li>Cafe24 모듈/변수/수정자 레퍼런스 정리</li>
+        <li>스킨 GitOps, 샘플몰 preview, AI 편집 guardrail</li>
+        <li>정적 문서 UX, 검색/탐색성, 모바일 표 가독성 개선</li>
       </ul>
-      <sub>Landing page · Motion · Visual QA</sub>
+      <a href="https://github.com/kimyoungwopo/cafe24-smart-design">github.com/kimyoungwopo/cafe24-smart-design</a><br/>
+      <sub>Updated: 2026.07 · HTML · Public reference</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>ATP Official Website</h3>
-      <b>Brand landing and admin-ready web structure</b><br/><br/>
+      <h3>🎀 RESCENE Remini</h3>
+      <b>Character scroll landing and visual QA</b><br/><br/>
       <ul>
-        <li>공식 웹사이트 구축과 운영형 섹션 구성</li>
-        <li>콘텐츠 확장에 강한 페이지 구조</li>
-        <li>배포 이후 유지보수를 고려한 프로젝트 설계</li>
+        <li>파스텔 무드의 캐릭터 스크롤 랜딩</li>
+        <li>코드 제어 레이아웃, 원본 PNG 보존, 모바일 회귀 QA</li>
+        <li>캐릭터 팬 경험을 살리는 인터랙션/공유 카드 실험</li>
       </ul>
-      <sub>Brand site · Information architecture · Operations-ready UI</sub>
+      <sub>Updated: 2026.07 · TypeScript · Interaction design</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧭 Front-End Focus
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>01. Product Flow</h3>
+      사용자가 어디서 들어와서, 무엇을 보고, 어떤 행동을 완료해야 하는지 먼저 설계합니다.
+    </td>
+    <td width="33%" valign="top">
+      <h3>02. API-first UI</h3>
+      화면만 만드는 것이 아니라 인증, 데이터 모델, API 응답, 에러/빈 상태까지 연결합니다.
+    </td>
+    <td width="33%" valign="top">
+      <h3>03. Mobile Blue Team</h3>
+      320/390px, 터치 타깃, 텍스트 줄바꿈, 스크롤 밀도, OG/SEO까지 실제 배포 기준으로 확인합니다.
     </td>
   </tr>
 </table>
@@ -128,19 +131,19 @@
 <table>
   <tr>
     <td><b>Frontend</b></td>
-    <td>React, TypeScript, Next.js, Vite, Tailwind CSS</td>
+    <td>React, TypeScript, Next.js App Router, Vite, Tailwind CSS</td>
   </tr>
   <tr>
     <td><b>Backend / Data</b></td>
-    <td>Node.js, Express, Supabase, PostgreSQL</td>
+    <td>Node.js, Express, Supabase, PostgreSQL, API route BFF</td>
   </tr>
   <tr>
-    <td><b>Product</b></td>
-    <td>UX flow, mobile-first UI, SEO/OG, dashboard, automation</td>
+    <td><b>Product Craft</b></td>
+    <td>UX flow, mobile-first IA, SEO/OG, dashboard, automation, visual QA</td>
   </tr>
   <tr>
-    <td><b>Deployment</b></td>
-    <td>Vercel, GitHub, Docker</td>
+    <td><b>Ship</b></td>
+    <td>Vercel, GitHub, Docker, Red/Blue QA gate</td>
   </tr>
 </table>
 
@@ -148,10 +151,10 @@
 
 ## 🧠 How I Build
 
-- 화면을 예쁘게 만드는 것보다 **사용자가 목적을 끝까지 완료하는 구조**를 먼저 봅니다.
-- 프론트엔드를 중심으로 **API, 데이터 모델, 인증, 배포 흐름**까지 연결합니다.
-- 제품이 실제로 운영될 때 필요한 **모바일 사용성, 성능, SEO/OG, 회귀 QA**를 함께 챙깁니다.
-- 작은 기능도 “왜 필요한가 → 어디서 막히는가 → 어떻게 반복 사용되는가”를 기준으로 설계합니다.
+- 기능을 먼저 나열하지 않고 **사용자가 완료해야 하는 행동**부터 정의합니다.
+- UI 컴포넌트는 **데이터 상태, 권한, 에러, 빈 화면**까지 포함해서 설계합니다.
+- 모바일에서 먼저 읽히는지 보고, 데스크톱에서는 정보 구조와 밀도를 정리합니다.
+- 배포 후에도 깨지지 않도록 **SEO/OG, 성능, 회귀 QA, 운영 플로우**를 함께 봅니다.
 
 ---
 
@@ -162,7 +165,13 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimyoungwopo&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kimyoungwopo&theme=react-dark&hide_border=true&bg_color=020617&color=93C5FD&line=38BDF8&point=FFFFFF" width="100%" alt="GitHub activity graph" />
+</div>
+
 <!-- FOOTER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:2563EB,100:0F172A&height=80&section=footer" width="100%" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:2563EB,100:020617&height=80&section=footer" width="100%" alt="footer" />
 </p>
