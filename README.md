@@ -22,6 +22,7 @@
   <a href="mailto:kbc01054575075@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
   <a href="https://gakjaccoding.vercel.app"><img src="https://img.shields.io/badge/GakjaCoding-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="GakjaCoding" /></a>
   <a href="https://github.com/kimyoungwopo/cafe24-smart-design"><img src="https://img.shields.io/badge/Cafe24%20Smart%20Design-38BDF8?style=flat-square&logo=github&logoColor=0F172A" alt="Cafe24 Smart Design" /></a>
+  <a href="https://github.com/kimyoungwopo/frontend-token-trim-skillpack"><img src="https://img.shields.io/badge/Frontend%20Token%20Trim-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="Frontend Token Trim Skillpack" /></a>
 </p>
 
 <p align="center">
@@ -62,18 +63,19 @@ Cafe24 모듈/변수/수정자 레퍼런스, 스킨 GitOps, 샘플몰 preview, A
 
 ---
 
-## 🧬 Live Build Signals
+### ✂️ Frontend Token Trim Skillpack
 
-<p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kimyoungwopo&theme=github_dark" alt="GitHub contribution summary" />
-</p>
+**Hermes Agent frontend skillpack for leaner implementation context**  
+Ponytail · Graphify · Headroom 기반으로 프론트엔드 작업의 컨텍스트를 좁히고, 불필요한 토큰 소비를 줄이며, QA 중심 구현 흐름을 정리합니다.
+
+[`Repository`](https://github.com/kimyoungwopo/frontend-token-trim-skillpack) · `Hermes Agent` · `Frontend workflow` · `Skillpack`
+
+---
+
+## 🧬 Live Build Signal
 
 <p align="center">
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=kimyoungwopo&theme=transparent&hide_border=true&stroke=38BDF8&ring=38BDF8&fire=2563EB&currStreakLabel=93C5FD" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimyoungwopo&theme=github_dark&utcOffset=9" alt="Productive time" />
 </p>
 
 ---
@@ -133,10 +135,12 @@ flowchart TD
   W[WOD / PRDAY] --> C
   W --> D
   CAFE[Cafe24 Smart Design] --> E
+  TOKEN[Frontend Token Trim] --> C
+  TOKEN --> E
 
   classDef product fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
   classDef system fill:#ECFEFF,stroke:#38BDF8,color:#0F172A,stroke-width:2px;
-  class G,W,CAFE product;
+  class G,W,CAFE,TOKEN product;
   class A,B,C,D,E,F system;
 ```
 
