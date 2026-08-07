@@ -23,6 +23,7 @@
   <a href="https://gakjaccoding.vercel.app"><img src="https://img.shields.io/badge/GakjaCoding-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="GakjaCoding" /></a>
   <a href="https://github.com/kimyoungwopo/cafe24-smart-design"><img src="https://img.shields.io/badge/Cafe24%20Smart%20Design-38BDF8?style=flat-square&logo=github&logoColor=0F172A" alt="Cafe24 Smart Design" /></a>
   <a href="https://github.com/kimyoungwopo/frontend-token-trim-skillpack"><img src="https://img.shields.io/badge/Frontend%20Token%20Trim-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="Frontend Token Trim Skillpack" /></a>
+  <a href="https://github.com/kimyoungwopo/korean-ecommerce-visual-copywriting-skill"><img src="https://img.shields.io/badge/K--Commerce%20Visual%20Copy-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Korean E-commerce Visual Copywriting Skill" /></a>
 </p>
 
 <p align="center">
@@ -69,6 +70,15 @@ Cafe24 모듈/변수/수정자 레퍼런스, 스킨 GitOps, 샘플몰 preview, A
 Ponytail · Graphify · Headroom 기반으로 프론트엔드 작업의 컨텍스트를 좁히고, 불필요한 토큰 소비를 줄이며, QA 중심 구현 흐름을 정리합니다.
 
 [`Repository`](https://github.com/kimyoungwopo/frontend-token-trim-skillpack) · `Hermes Agent` · `Frontend workflow` · `Skillpack`
+
+---
+
+### 🛍️ Korean E-commerce Visual Copywriting Skill
+
+**Agent Skill for Korean commerce images and detail-page copy**  
+스마트스토어, 쿠팡, 11번가, 오늘의집, 자사몰/SNS 광고 소재에 맞춰 대표이미지, 상세페이지 Storyboard, 이미지 내 문구, 생성형 이미지 프롬프트를 구조화합니다.
+
+[`Repository`](https://github.com/kimyoungwopo/korean-ecommerce-visual-copywriting-skill) · `Python` · `K-commerce` · `Visual copywriting`
 
 ---
 
@@ -137,10 +147,12 @@ flowchart TD
   CAFE[Cafe24 Smart Design] --> E
   TOKEN[Frontend Token Trim] --> C
   TOKEN --> E
+  COMMERCE[K-Commerce Visual Copy] --> B
+  COMMERCE --> E
 
   classDef product fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
   classDef system fill:#ECFEFF,stroke:#38BDF8,color:#0F172A,stroke-width:2px;
-  class G,W,CAFE,TOKEN product;
+  class G,W,CAFE,TOKEN,COMMERCE product;
   class A,B,C,D,E,F system;
 ```
 
