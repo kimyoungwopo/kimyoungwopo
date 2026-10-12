@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Kim Youngwoo — Frontend Developer & Product Builder. Build the interface. Connect the product." />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Kim Youngwoo — Frontend, AI Workflows & Product Builder. Build the interface. Connect the product." />
 </p>
 
 <p align="center">
-  <strong>프론트엔드를 중심으로 제품의 구조, 흐름, 운영까지 설계합니다.</strong><br />
-  <sub>사용자 흐름부터 API 연결, 모바일 QA까지.</sub>
+  <strong>프론트엔드와 AI 워크플로를 연결해, 실제로 쓰이는 제품을 만듭니다.</strong><br />
+  <sub>Product UI · AI Agent Skills · Generative Media · Verified Workflows</sub>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ### Frameflow
 
-**이미지 워크플로를 연결하고, 결과를 검증하는 로컬 스튜디오.**
+**AI 이미지 생성·편집을 연결하고, 결과를 검증하는 로컬 스튜디오.**
 
 <a href="https://github.com/kimyoungwopo/frameflow">
   <img src="https://raw.githubusercontent.com/kimyoungwopo/frameflow/main/docs/assets/studio-overview.png" width="100%" alt="Frameflow 실제 스튜디오 화면: 이미지 생성과 편집 노드를 연결하는 워크플로" />
@@ -58,7 +58,24 @@ Ponytail · Graphify · Headroom 기반으로 Hermes Agent의 프론트엔드 �
 
 ---
 
-## 03 / Product Work
+## 03 / Applied AI
+
+**AI를 호출하는 화면을 넘어, 맥락·도구·검증이 연결된 작업 흐름을 만듭니다.**
+
+### Agent Skills & Context Engineering
+에이전트가 참고할 프로젝트 규칙과 레퍼런스를 재사용 가능한 Skill로 정리합니다. Token Trim Skillpack으로 필요한 코드 맥락을 좁히고, Cafe24 레퍼런스로 모듈·변수와 편집 제약을 명확히 전달합니다.
+
+### Generative Media Workflows
+Frameflow에서 프롬프트·이미지 입력·편집·미리보기를 노드로 연결합니다. 커머스 Skill에서는 이미지 생성 전에 스토리보드와 시각 카피를 구조화해, 생성 과정에 필요한 의도를 구체화합니다.
+
+### Validation & Provider Boundaries
+provider adapter와 Local Bridge로 생성 경계를 분리하고, mock provider와 fixture로 오프라인 QA 경로를 제공합니다. 생성된 모션 아틀라스는 계약을 검증한 뒤 프레임 분리와 GIF/APNG 인코딩으로 이어갑니다.
+
+`Agent Skills` · `Context Engineering` · `Provider Adapters` · `Offline QA`
+
+---
+
+## 04 / Product Work
 
 ### WOD / PRDAY
 **운동 기록부터 예약·코칭까지 이어지는 모바일 운영 흐름.**
@@ -69,7 +86,7 @@ Ponytail · Graphify · Headroom 기반으로 Hermes Agent의 프론트엔드 �
 
 ---
 
-## 04 / Engineering Craft
+## 05 / Engineering Craft
 
 **Flow before features.**
 사용자가 어디서 들어와 어떤 행동을 완료하는지 먼저 설계합니다.
@@ -110,7 +127,7 @@ flowchart TD
 
 ---
 
-## 05 / Activity
+## 06 / Activity
 
 <p align="center">
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=kimyoungwopo&theme=dark&background=0D1117&hide_border=true&stroke=60A5FA&ring=5EEAD4&fire=60A5FA&currStreakLabel=93C5FD" alt="GitHub 기여 활동과 연속 기여 기록" />
