@@ -37,15 +37,6 @@
 
 ## ⚡ Currently Shipping
 
-### 🧑‍💻 GakjaCoding
-
-**API-first coding education/product platform**  
-Next.js · Supabase 기반으로 게스트/회원 플로우, 공유 UX, GitHub avatar 기반 사용자 경험, 320/390px compact UI를 설계합니다.
-
-`TypeScript` · `Product UI` · `SEO/OG`
-
----
-
 ### 🏋️ WOD / PRDAY
 
 **CrossFit WOD, booking, coaching operations**  
@@ -152,8 +143,6 @@ flowchart TD
   D --> E[SEO / OG / QA]
   E --> F[Production]
 
-  G[GakjaCoding] --> B
-  G --> E
   W[WOD / PRDAY] --> C
   W --> D
   CAFE[Cafe24 Smart Design] --> E
@@ -166,7 +155,7 @@ flowchart TD
 
   classDef product fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
   classDef system fill:#ECFEFF,stroke:#38BDF8,color:#0F172A,stroke-width:2px;
-  class G,W,CAFE,TOKEN,COMMERCE,FRAME product;
+  class W,CAFE,TOKEN,COMMERCE,FRAME product;
   class A,B,C,D,E,F system;
 ```
 
