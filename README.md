@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="mailto:kbc01054575075@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://gakjaccoding.vercel.app"><img src="https://img.shields.io/badge/GakjaCoding-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="GakjaCoding" /></a>
+  <a href="https://github.com/kimyoungwopo/frameflow"><img src="https://img.shields.io/badge/Frameflow-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="Frameflow" /></a>
   <a href="https://github.com/kimyoungwopo/cafe24-smart-design"><img src="https://img.shields.io/badge/Cafe24%20Smart%20Design-38BDF8?style=flat-square&logo=github&logoColor=0F172A" alt="Cafe24 Smart Design" /></a>
   <a href="https://github.com/kimyoungwopo/frontend-token-trim-skillpack"><img src="https://img.shields.io/badge/Frontend%20Token%20Trim-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="Frontend Token Trim Skillpack" /></a>
   <a href="https://github.com/kimyoungwopo/korean-ecommerce-visual-copywriting-skill"><img src="https://img.shields.io/badge/K--Commerce%20Visual%20Copy-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Korean E-commerce Visual Copywriting Skill" /></a>
@@ -42,7 +42,7 @@
 **API-first coding education/product platform**  
 Next.js · Supabase 기반으로 게스트/회원 플로우, 공유 UX, GitHub avatar 기반 사용자 경험, 320/390px compact UI를 설계합니다.
 
-[`Live App`](https://gakjaccoding.vercel.app) · `TypeScript` · `Product UI` · `SEO/OG`
+`TypeScript` · `Product UI` · `SEO/OG`
 
 ---
 
@@ -55,12 +55,24 @@ Next.js · Supabase 기반으로 게스트/회원 플로우, 공유 UX, GitHub a
 
 ---
 
+## 🌱 Open Source
+
+### 🎞️ Frameflow
+
+**Local-first, node-based image workflow studio**
+
+이미지 생성·편집 흐름을 노드 그래프로 구성하고, Local Bridge와 provider adapter를 통해 연결합니다. 모션 아틀라스를 검증한 뒤 정확한 프레임으로 분리해 GIF/APNG로 내보내며, mock provider와 fixture로 오프라인 QA를 지원합니다.
+
+[`Repository`](https://github.com/kimyoungwopo/frameflow) · [`한국어 가이드`](https://github.com/kimyoungwopo/frameflow/blob/main/README.ko.md) · `Next.js` · `TypeScript` · `Apache-2.0`
+
+---
+
 ### 🛠️ Cafe24 Smart Design
 
 **Frontend reference and AI-assisted workflow docs**  
-Cafe24 모듈/변수/수정자 레퍼런스, 스킨 GitOps, 샘플몰 preview, AI 편집 guardrail, 정적 문서 UX를 정리합니다.
+Cafe24 모듈/변수/수정자 레퍼런스를 검색 가능한 공개 뷰어와 JSON registry로 제공합니다. 공식 문서 맵, 스킨 제작 흐름, AI 편집 guardrail과 데이터 검증을 함께 정리합니다.
 
-[`Repository`](https://github.com/kimyoungwopo/cafe24-smart-design) · `HTML` · `Docs UX` · `Public reference`
+[`Repository`](https://github.com/kimyoungwopo/cafe24-smart-design) · [`Live Docs`](https://kimyoungwopo.github.io/cafe24-smart-design) · `HTML` · `Docs UX` · `MIT`
 
 ---
 
@@ -149,10 +161,12 @@ flowchart TD
   TOKEN --> E
   COMMERCE[K-Commerce Visual Copy] --> B
   COMMERCE --> E
+  FRAME[Frameflow] --> C
+  FRAME --> E
 
   classDef product fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
   classDef system fill:#ECFEFF,stroke:#38BDF8,color:#0F172A,stroke-width:2px;
-  class G,W,CAFE,TOKEN,COMMERCE product;
+  class G,W,CAFE,TOKEN,COMMERCE,FRAME product;
   class A,B,C,D,E,F system;
 ```
 
